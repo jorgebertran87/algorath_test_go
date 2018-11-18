@@ -8,7 +8,7 @@ func (n Name) New(name string) Name {
 	return Name{name}
 }
 
-func (n *Name) Name() string {
+func (n *Name) Value() string {
 	return n.name
 }
 
